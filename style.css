@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:poppins;
+}
+body{
+    background-color: black;
+}
+nav span{
+    color: white;
+    font-size: 24px;
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 9%;
+}
+nav ul{
+    display: flex;
+    width: 50%;
+}
+nav ul li{
+    padding: 0% 6%;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+}
+/* start of header */
+#topSec{
+    background-image: url(images/Ellipse\ 2333.png);
+    background-repeat: no-repeat;
+}
+#headerSec{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;  
+}
+#nextGen{
+    margin-left: 5%; 
+    width: 40%;
+    margin-top: 14%;
+}
+#nextGen p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: rgba(255, 255, 255, 0.7);
+}
+#nextGen h1{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 140%;
+    width: 600px;
+    letter-spacing: 0.01em;
+    margin-bottom: 10%;   
+}
+#getStarted{
+    position: relative;
+    top: -68%;
+    left: 76%;
+    width: 25%;
+}
+#robotHand{
+    width: 60%;
+}
+#robotHand img{  
+    width: 100%; 
+}
+header span{
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#numbers{
+    margin: 5% 0% 15% 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0% 10%;
+}
+#numbers .line{
+    color: rgba(255, 255, 255, 0.6);
+}
+#numbers .nums{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+#numbers .text{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* middle section */
+#middle{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 7%;
+}
+.leftText{
+    width: 60%;
+    margin-right: 5%;
+}
+.leftText h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.leftText p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 5% 0%;
+}
+button{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #00040E;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    padding: 2% 3%;
+    border-radius: 10px;
+}
+#middle #rightText{
+    width: 60%;
+}
+#middle #rightText img{
+    width: 64px;
+    height: 64px;
+    padding-right: 3%;
+}
+#middle #rightText h2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    margin-bottom: 2%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+#middle #rightText p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#middle #rightText .content{
+    display: flex;
+    margin-bottom: 12%;
+}
+/* card deal section */
+#cardDeal{
+    margin: 10% 0%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#cardDeal .leftText{
+    width: 40%;
+}
+#cardDeal img{
+    width: 35%;
+}
+#whatPeople{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+#whatPeople h2{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 170%;
+    color: #FFFFFF;
+    width: 40%;
+}
+#whatPeople p{
+    font-weight: 400;
+    font-size: 18px;
+    width: 40%;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* card section */
+#cardsSec{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+.card{
+    padding: 5%;
+}
+.card p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 10% 0%;
+}
+.card .user{
+    display: flex;
+}
+.card .user h1{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.card .user p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 0%;
+}
+.card .user img{
+    width: 15%;
+    margin-right: 3%;
+    vertical-align: middle;
+}
+/* try service section */
+#tryService{
+    margin-top: 5%;
+    background: linear-gradient(144.39deg, #FFFFFF -278.56%, #6D6D6D -78.47%, #11101D 91.61%);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    padding: 7%;
+}
+#tryService h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-bottom: 5%;
+}
+#tryService div{
+    width: 70%;
+}
+#tryService p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: rgba(255, 255, 255, 0.7);
+}
+#tryService button{
+    height: 100%;
+    margin-top: 5%;
+    background: linear-gradient(157.81deg, #DEF9FA -43.27%, #BEF3F5 -21.24%, #9DEDF0 12.19%, #7DE7EB 29.82%, #5CE1E6 51.94%, #33BBCF 90.29%);
+    border-radius: 10px;
+}
+/* footer */
+footer{
+    background: rgba(11, 10, 12, 0.6);
+    padding: 5%;
+}
+#divsSec{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+#divsSec p{
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 5%;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#footerLogo{
+    width: 30%;
+}
+#footerLogo img{
+    vertical-align: middle;
+}
+#divsSec h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-bottom: 15%;
+}
+#divsSec ul{
+    list-style-type: none;
+}
+#divsSec a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
+#divsSec li{
+    margin-bottom: 10%;
+}
+hr{
+    margin: 3%;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+}
+@media only screen and (max-width:600px){
+    nav ul{
+        display: none;
+    }
+    nav span{
+        display: block;
+    }
+    #headerSec{
+        margin-top: -5%;
+        flex-direction: column;
+    }
+    #nextGen{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    #getStarted{
+        position: absolute;
+        top: 40%;
+        left: 65%;
+        width: 20%;
+    }
+    #robotHand{
+        width: 95%;
+    }
+    #numbers{
+        width: 90%;
+    }
+    #numbers .nums{
+        font-size: 16px;
+    }
+    #middle{
+        flex-direction: column;
+    }
+    #middle .leftText{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #middle #rightText{
+        width: 80%;
+    }
+    #cardDeal{
+        flex-direction: column;
+    }
+    #cardDeal .leftText{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    #cardDeal img{
+        width: 60%;
+        margin: auto;
+    }
+    #whatPeople{
+        flex-direction: column;
+    }
+    #whatPeople h2{
+        width:90%;
+    }
+    #whatPeople p{
+        width:90%;
+    }
+    #cardsSec{
+        flex-direction: column;
+    }
+    .card{
+        width: 60%;
+        margin: auto;
+    }
+    footer #divsSec{
+        flex-direction: column;
+        width: 100%;
+    }
+    #divsSec h3{
+        margin: 3%;
+    }
+    #divsSec li{
+        margin: 3%;
+    }
+    #footerLogo{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    #icons{
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    #icons img{
+        margin-bottom: 3%;
+    }
+    #tryService{
+        flex-direction: column;
+    }
+}
+@media only screen  and (min-width:768px) and (max-width:1024px) {
+    nav ul{
+        width: 80%;
+    }
+    #headerSec{
+        margin-top: -5%;
+        flex-direction: column;
+    }
+    #nextGen{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    #getStarted{
+        position: absolute;
+        top: 45%;
+        left: 55%;
+        width: 15%;
+    }
+    #robotHand{
+        width: 95%;
+    }
+    #numbers{
+        width: 80%;
+    }
+    #numbers .nums{
+        font-size: 16px;
+    }
+    #middle{
+        flex-direction: column;
+    }
+    #middle .leftText{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    #middle #rightText{
+        width: 80%;
+    }
+    #cardDeal{
+        flex-direction: column;
+    }
+    #cardDeal .leftText{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+    #cardDeal img{
+        width: 60%;
+        margin: auto;
+    }
+    #whatPeople{
+        flex-direction: column;
+    }
+    #whatPeople h2{
+        width:90%;
+    }
+    #whatPeople p{
+        width:90%;
+    }
+    #cardsSec{
+        flex-direction: column;
+    }
+    .card{
+        width: 60%;
+        margin: auto;
+    }
+};
+
